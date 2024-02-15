@@ -1,0 +1,24 @@
+2023-09-27 14:33:58,564 file.manager INFO 2.0.1
+2023-09-27 14:33:58,565 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2023-09-27 14:33:58,565 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2023-09-27 14:33:58,565 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2023-09-27 14:33:58,565 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2023-09-27 14:33:58,565 file.manager INFO   All right reserved.
+2023-09-27 14:33:58,565 file.manager INFO Manager starting.
+2023-09-27 14:33:58,565 file.manager INFO Starting local logging.
+2023-09-27 14:33:58,567 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2023-09-27 14:33:58,572 file.ManagerServant INFO Master manager not found
+2023-09-27 14:33:58,573 file.LocalServiceAdmin INFO All the local services are enabled.
+2023-09-27 14:33:58,578 file.manager INFO Component type conf file: speak.conf loaded.
+2023-09-27 14:33:58,580 file.ec_base INFO setRate(1000000.000000) done
+2023-09-27 14:33:58,580 file.ec_base INFO setRate(1000.000000) done
+2023-09-27 14:33:58,581 file.rtobject INFO 1 execution context was created.
+2023-09-27 14:33:58,581 file.rtobject INFO Initial active configuration set is default.
+2023-09-27 14:34:08,621 file.ManagerServant INFO Master manager not found
+2023-09-27 14:34:18,659 file.ManagerServant INFO Master manager not found
+2023-09-27 14:34:21,207 file.ec_base WARNING The component is not responding.
+2023-09-27 14:34:21,207 file.ec_base ERROR Unknown error: Invalid state transition.
+2023-09-27 14:34:28,695 file.ManagerServant INFO Master manager not found
+2023-09-27 14:34:35,645 file.SdoServiceAdmin WARNING No available SDO service in the factory: 
+2023-09-27 14:34:35,645 file.SdoServiceAdmin ERROR type  not exists.
+2023-09-27 14:34:38,736 file.ManagerServant INFO Master manager not found

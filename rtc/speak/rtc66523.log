@@ -1,0 +1,48 @@
+2023-09-27 14:00:19,418 file.manager INFO 2.0.1
+2023-09-27 14:00:19,418 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2023-09-27 14:00:19,418 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2023-09-27 14:00:19,418 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2023-09-27 14:00:19,418 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2023-09-27 14:00:19,418 file.manager INFO   All right reserved.
+2023-09-27 14:00:19,418 file.manager INFO Manager starting.
+2023-09-27 14:00:19,418 file.manager INFO Starting local logging.
+2023-09-27 14:00:19,421 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2023-09-27 14:00:19,428 file.ManagerServant INFO Master manager not found
+2023-09-27 14:00:19,430 file.LocalServiceAdmin INFO All the local services are enabled.
+2023-09-27 14:00:19,434 file.manager INFO Component type conf file: speak.conf loaded.
+2023-09-27 14:00:19,435 file.ec_base INFO setRate(1000000.000000) done
+2023-09-27 14:00:19,435 file.ec_base INFO setRate(1000.000000) done
+2023-09-27 14:00:19,436 file.rtobject INFO 1 execution context was created.
+2023-09-27 14:00:19,436 file.rtobject INFO Initial active configuration set is default.
+2023-09-27 14:00:27,586 file.ec_base WARNING The component is not responding.
+2023-09-27 14:00:27,587 file.ec_base ERROR Unknown error: Invalid state transition.
+2023-09-27 14:00:29,475 file.ManagerServant INFO Master manager not found
+2023-09-27 14:00:39,512 file.ManagerServant INFO Master manager not found
+2023-09-27 14:00:49,550 file.ManagerServant INFO Master manager not found
+2023-09-27 14:00:59,588 file.ManagerServant INFO Master manager not found
+2023-09-27 14:01:09,628 file.ManagerServant INFO Master manager not found
+2023-09-27 14:01:19,670 file.ManagerServant INFO Master manager not found
+2023-09-27 14:01:29,713 file.ManagerServant INFO Master manager not found
+2023-09-27 14:01:39,756 file.ManagerServant INFO Master manager not found
+2023-09-27 14:01:49,798 file.ManagerServant INFO Master manager not found
+2023-09-27 14:01:59,841 file.ManagerServant INFO Master manager not found
+2023-09-27 14:02:09,886 file.ManagerServant INFO Master manager not found
+2023-09-27 14:02:19,924 file.ManagerServant INFO Master manager not found
+2023-09-27 14:02:29,966 file.ManagerServant INFO Master manager not found
+2023-09-27 14:02:40,010 file.ManagerServant INFO Master manager not found
+2023-09-27 14:02:42,963 file.SdoServiceAdmin WARNING No available SDO service in the factory: 
+2023-09-27 14:02:42,964 file.SdoServiceAdmin ERROR type  not exists.
+2023-09-27 14:02:50,051 file.ManagerServant INFO Master manager not found
+2023-09-27 14:03:00,094 file.ManagerServant INFO Master manager not found
+2023-09-27 14:03:10,135 file.ManagerServant INFO Master manager not found
+2023-09-27 14:03:20,178 file.ManagerServant INFO Master manager not found
+2023-09-27 14:03:30,221 file.ManagerServant INFO Master manager not found
+2023-09-27 14:03:40,263 file.ManagerServant INFO Master manager not found
+2023-09-27 14:03:50,302 file.ManagerServant INFO Master manager not found
+2023-09-27 14:04:00,346 file.ManagerServant INFO Master manager not found
+2023-09-27 14:04:10,388 file.ManagerServant INFO Master manager not found
+2023-09-27 14:04:20,430 file.ManagerServant INFO Master manager not found
+2023-09-27 14:04:30,476 file.ManagerServant INFO Master manager not found
+2023-09-27 14:04:40,519 file.ManagerServant INFO Master manager not found
+2023-09-27 14:04:50,561 file.ManagerServant INFO Master manager not found
+2023-09-27 14:05:00,601 file.ManagerServant INFO Master manager not found

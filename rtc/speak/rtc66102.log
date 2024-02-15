@@ -1,0 +1,32 @@
+2023-09-27 13:56:38,090 file.manager INFO 2.0.1
+2023-09-27 13:56:38,090 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2023-09-27 13:56:38,090 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2023-09-27 13:56:38,090 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2023-09-27 13:56:38,090 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2023-09-27 13:56:38,091 file.manager INFO   All right reserved.
+2023-09-27 13:56:38,091 file.manager INFO Manager starting.
+2023-09-27 13:56:38,091 file.manager INFO Starting local logging.
+2023-09-27 13:56:38,092 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2023-09-27 13:56:38,098 file.ManagerServant INFO Master manager not found
+2023-09-27 13:56:38,102 file.LocalServiceAdmin INFO All the local services are enabled.
+2023-09-27 13:56:38,105 file.manager INFO Component type conf file: speak.conf loaded.
+2023-09-27 13:56:38,108 file.ec_base INFO setRate(1000000.000000) done
+2023-09-27 13:56:38,108 file.ec_base INFO setRate(1000.000000) done
+2023-09-27 13:56:38,108 file.rtobject INFO 1 execution context was created.
+2023-09-27 13:56:38,110 file.rtobject INFO Initial active configuration set is default.
+2023-09-27 13:56:46,032 file.ec_base WARNING The component is not responding.
+2023-09-27 13:56:46,033 file.ec_base ERROR Unknown error: Invalid state transition.
+2023-09-27 13:56:48,151 file.ManagerServant INFO Master manager not found
+2023-09-27 13:56:53,567 file.SdoServiceAdmin WARNING No available SDO service in the factory: 
+2023-09-27 13:56:53,567 file.SdoServiceAdmin ERROR type  not exists.
+2023-09-27 13:56:58,196 file.ManagerServant INFO Master manager not found
+2023-09-27 13:57:08,237 file.ManagerServant INFO Master manager not found
+2023-09-27 13:57:18,275 file.ManagerServant INFO Master manager not found
+2023-09-27 13:57:28,318 file.ManagerServant INFO Master manager not found
+2023-09-27 13:57:38,359 file.ManagerServant INFO Master manager not found
+2023-09-27 13:57:48,401 file.ManagerServant INFO Master manager not found
+2023-09-27 13:57:58,446 file.ManagerServant INFO Master manager not found
+2023-09-27 13:58:08,487 file.ManagerServant INFO Master manager not found
+2023-09-27 13:58:18,530 file.ManagerServant INFO Master manager not found
+2023-09-27 13:58:28,571 file.ManagerServant INFO Master manager not found
+2023-09-27 13:58:38,612 file.ManagerServant INFO Master manager not found

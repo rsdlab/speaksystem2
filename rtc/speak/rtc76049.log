@@ -1,0 +1,20 @@
+2023-09-27 15:38:45,196 file.manager INFO 2.0.1
+2023-09-27 15:38:45,196 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2023-09-27 15:38:45,196 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2023-09-27 15:38:45,196 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2023-09-27 15:38:45,196 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2023-09-27 15:38:45,196 file.manager INFO   All right reserved.
+2023-09-27 15:38:45,197 file.manager INFO Manager starting.
+2023-09-27 15:38:45,197 file.manager INFO Starting local logging.
+2023-09-27 15:38:45,199 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2023-09-27 15:38:45,206 file.ManagerServant INFO Master manager not found
+2023-09-27 15:38:45,207 file.LocalServiceAdmin INFO All the local services are enabled.
+2023-09-27 15:38:45,212 file.manager INFO Component type conf file: speak.conf loaded.
+2023-09-27 15:38:45,215 file.ec_base INFO setRate(1000000.000000) done
+2023-09-27 15:38:45,215 file.ec_base INFO setRate(1000.000000) done
+2023-09-27 15:38:45,216 file.rtobject INFO 1 execution context was created.
+2023-09-27 15:38:45,217 file.rtobject INFO Initial active configuration set is default.
+2023-09-27 15:38:55,256 file.ManagerServant INFO Master manager not found
+2023-09-27 15:39:05,294 file.ManagerServant INFO Master manager not found
+2023-09-27 15:39:15,330 file.ManagerServant INFO Master manager not found
+2023-09-27 15:39:25,369 file.ManagerServant INFO Master manager not found

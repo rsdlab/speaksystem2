@@ -1,0 +1,54 @@
+# speak CMake config file
+#
+# This file sets the following variables:
+# speak_FOUND - Always TRUE.
+# speak_INCLUDE_DIRS - Directories containing the speak include files.
+# speak_IDL_DIRS - Directories containing the speak IDL files.
+# speak_LIBRARIES - Libraries needed to use speak.
+# speak_DEFINITIONS - Compiler flags for speak.
+# speak_VERSION - The version of speak found.
+# speak_VERSION_MAJOR - The major version of speak found.
+# speak_VERSION_MINOR - The minor version of speak found.
+# speak_VERSION_REVISION - The revision version of speak found.
+# speak_VERSION_CANDIDATE - The candidate version of speak found.
+
+message(STATUS "Found speak-@PROJECT_VERSION@")
+set(speak_FOUND TRUE)
+
+find_package(<dependency> REQUIRED)
+
+#set(speak_INCLUDE_DIRS
+#    "@CMAKE_INSTALL_PREFIX@/include/@PROJECT_NAME_LOWER@-@PROJECT_VERSION_MAJOR@"
+#    ${<dependency>_INCLUDE_DIRS}
+#    )
+#
+#set(speak_IDL_DIRS
+#    "@CMAKE_INSTALL_PREFIX@/include/@PROJECT_NAME_LOWER@-@PROJECT_VERSION_MAJOR@/idl")
+set(speak_INCLUDE_DIRS
+    "@CMAKE_INSTALL_PREFIX@/include/@CPACK_PACKAGE_FILE_NAME@"
+    ${<dependency>_INCLUDE_DIRS}
+    )
+set(speak_IDL_DIRS
+    "@CMAKE_INSTALL_PREFIX@/include/@CPACK_PACKAGE_FILE_NAME@/idl")
+
+
+if(WIN32)
+    set(speak_LIBRARIES
+        "@CMAKE_INSTALL_PREFIX@/@LIB_INSTALL_DIR@/@CMAKE_SHARED_LIBRARY_PREFIX@@PROJECT_NAME_LOWER@@CMAKE_STATIC_LIBRARY_SUFFIX@"
+        ${<dependency>_LIBRARIES}
+        )
+else(WIN32)
+    set(speak_LIBRARIES
+        "@CMAKE_INSTALL_PREFIX@/@LIB_INSTALL_DIR@/@CMAKE_SHARED_LIBRARY_PREFIX@@PROJECT_NAME_LOWER@@CMAKE_SHARED_LIBRARY_SUFFIX@"
+        ${<dependency>_LIBRARIES}
+        )
+endif(WIN32)
+
+set(speak_DEFINITIONS ${<dependency>_DEFINITIONS})
+
+set(speak_VERSION @PROJECT_VERSION@)
+set(speak_VERSION_MAJOR @PROJECT_VERSION_MAJOR@)
+set(speak_VERSION_MINOR @PROJECT_VERSION_MINOR@)
+set(speak_VERSION_REVISION @PROJECT_VERSION_REVISION@)
+set(speak_VERSION_CANDIDATE @PROJECT_VERSION_CANDIDATE@)
+
