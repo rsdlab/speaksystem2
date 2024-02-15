@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<rts:RtsProfile xmlns:rts="http://www.openrtp.org/namespaces/rts" xmlns:rtsExt="http://www.openrtp.org/namespaces/rts_ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rts:id="RTSystem:speak:speak:1" rts:abstract="spesk" rts:creationDate="2024-02-15T17:20:51" rts:updateDate="2024-02-15T17:20:51" rts:version="0.2">
+    <rts:Components xsi:type="rtsExt:component_ext" rts:id="RTC:VenderName:Category:speak:1.0.0" rts:pathUri="localhost:2809/speak0.rtc" rts:activeConfigurationSet="default" rts:instanceName="speak0" rts:compositeType="None" rts:isRequired="true" rtsExt:visible="true">
+        <rts:DataPorts xsi:type="rtsExt:dataport_ext" rts:name="data_in" rtsExt:visible="true"/>
+        <rts:ConfigurationSets rts:id="default"/>
+        <rts:ExecutionContexts xsi:type="rtsExt:execution_context_ext" rts:id="0" rts:kind="PERIODIC" rts:rate="1000.0"/>
+        <rtsExt:Location rtsExt:x="0" rtsExt:y="0" rtsExt:height="0" rtsExt:width="0" rtsExt:direction="down"/>
+        <rtsExt:Properties rtsExt:name="IOR" rtsExt:value="IOR:010000003500000049444c3a6f70656e72746d2e616973742e676f2e6a702f4f70656e52544d2f44617461466c6f77436f6d706f6e656e743a312e3000000000010000000000000082000000010102000d0000003139322e3136382e35302e380000fb0a0e000000fe3dc9cd6500002701000000000100000300000000000000080000000100000000545441010000001c000000010000000100010001000000010001050901010001000000090101000300000016000000010000000b0000003137322e31372e302e310000fb0a"/>
+    </rts:Components>
+    <rts:Components xsi:type="rtsExt:component_ext" rts:id="RTC:VenderName:Category:choice:1.0.0" rts:pathUri="localhost:2809/choice0.rtc" rts:activeConfigurationSet="default" rts:instanceName="choice0" rts:compositeType="None" rts:isRequired="true" rtsExt:visible="true">
+        <rts:DataPorts xsi:type="rtsExt:dataport_ext" rts:name="data_out" rtsExt:visible="true"/>
+        <rts:ConfigurationSets rts:id="default"/>
+        <rts:ExecutionContexts xsi:type="rtsExt:execution_context_ext" rts:id="0" rts:kind="PERIODIC" rts:rate="1000.0"/>
+        <rtsExt:Location rtsExt:x="0" rtsExt:y="0" rtsExt:height="0" rtsExt:width="0" rtsExt:direction="down"/>
+        <rtsExt:Properties rtsExt:name="IOR" rtsExt:value="IOR:010000003500000049444c3a6f70656e72746d2e616973742e676f2e6a702f4f70656e52544d2f44617461466c6f77436f6d706f6e656e743a312e3000000000010000000000000082000000010102000d0000003139322e3136382e35302e380000fb0a0e000000fe3dc9cd6500002701000000000500000300000000000000080000000100000000545441010000001c000000010000000100010001000000010001050901010001000000090101000300000016000000010000000b0000003137322e31372e302e310000fb0a"/>
+    </rts:Components>
+    <rts:DataPortConnectors xsi:type="rtsExt:dataport_connector_ext" rts:connectorId="12f75db0-cbdb-11ee-bef5-418bb5a7a396" rts:name="data_outdata_in" rts:dataType="IDL:RTC/TimedShort:1.0" rts:interfaceType="corba_cdr" rts:dataflowType="push" rts:subscriptionType="new">
+        <rts:sourceDataPort rts:componentId="RTC:VenderName:Category:choice:1.0.0" rts:instanceName="choice0" xsi:type="rtsExt:target_port_ext" rts:portName="choice0.data_out">
+            <rtsExt:Properties rtsExt:name="COMPONENT_PATH_ID" rtsExt:value="localhost:2809/choice0.rtc"/>
+        </rts:sourceDataPort>
+        <rts:targetDataPort rts:componentId="RTC:VenderName:Category:speak:1.0.0" rts:instanceName="speak0" xsi:type="rtsExt:target_port_ext" rts:portName="speak0.data_in">
+            <rtsExt:Properties rtsExt:name="COMPONENT_PATH_ID" rtsExt:value="localhost:2809/manager_py.mgr/speak0.rtc"/>
+        </rts:targetDataPort>
+        <rtsExt:Properties rtsExt:name="dataport.dataflow_type" rtsExt:value="push"/>
+        <rtsExt:Properties rtsExt:name="dataport.interface_type" rtsExt:value="corba_cdr"/>
+        <rtsExt:Properties rtsExt:name="dataport.subscription_type" rtsExt:value="new"/>
+        <rtsExt:Properties rtsExt:name="dataport.data_type" rtsExt:value="IDL:RTC/TimedShort:1.0"/>
+        <rtsExt:Properties rtsExt:name="dataport.serializer.cdr.endian" rtsExt:value="little,big"/>
+        <rtsExt:Properties rtsExt:name="dataport.outport.data_type" rtsExt:value="IDL:RTC/TimedShort:1.0"/>
+        <rtsExt:Properties rtsExt:name="dataport.inport.data_type" rtsExt:value="IDL:RTC/TimedShort:1.0"/>
+    </rts:DataPortConnectors>
+</rts:RtsProfile>

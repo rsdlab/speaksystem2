@@ -1,0 +1,46 @@
+2024-02-15 17:20:13,283 file.manager INFO 2.0.1
+2024-02-15 17:20:13,283 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2024-02-15 17:20:13,283 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2024-02-15 17:20:13,283 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2024-02-15 17:20:13,283 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2024-02-15 17:20:13,283 file.manager INFO   All right reserved.
+2024-02-15 17:20:13,283 file.manager INFO Manager starting.
+2024-02-15 17:20:13,283 file.manager INFO Starting local logging.
+2024-02-15 17:20:13,285 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost:2809
+2024-02-15 17:20:13,288 file.LocalServiceAdmin INFO All the local services are enabled.
+2024-02-15 17:20:13,412 file.manager INFO Component instance conf file: conf/speak0.conf loaded.
+2024-02-15 17:20:13,413 file.ec_base INFO setRate(1000000.000000) done
+2024-02-15 17:20:13,414 file.ec_base INFO setRate(1000.000000) done
+2024-02-15 17:20:13,414 file.rtobject INFO 1 execution context was created.
+2024-02-15 17:20:13,415 file.rtobject INFO Initial active configuration set is default.
+2024-02-15 17:20:13,419 file.manager INFO Component instance conf file: conf/choice0.conf loaded.
+2024-02-15 17:20:13,420 file.ec_base INFO setRate(1000000.000000) done
+2024-02-15 17:20:13,420 file.ec_base INFO setRate(1000.000000) done
+2024-02-15 17:20:13,421 file.rtobject INFO 1 execution context was created.
+2024-02-15 17:20:13,421 file.rtobject INFO Initial active configuration set is default.
+2024-02-15 17:21:07,594 file.manager INFO 2.0.1
+2024-02-15 17:21:07,594 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2024-02-15 17:21:07,594 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2024-02-15 17:21:07,594 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2024-02-15 17:21:07,594 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2024-02-15 17:21:07,594 file.manager INFO   All right reserved.
+2024-02-15 17:21:07,594 file.manager INFO Manager starting.
+2024-02-15 17:21:07,594 file.manager INFO Starting local logging.
+2024-02-15 17:21:07,596 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost:2809
+2024-02-15 17:21:07,599 file.LocalServiceAdmin INFO All the local services are enabled.
+2024-02-15 17:21:07,714 file.manager INFO Component instance conf file: conf/speak0.conf loaded.
+2024-02-15 17:21:07,715 file.ec_base INFO setRate(1000000.000000) done
+2024-02-15 17:21:07,715 file.ec_base INFO setRate(1000.000000) done
+2024-02-15 17:21:07,716 file.rtobject INFO 1 execution context was created.
+2024-02-15 17:21:07,717 file.rtobject INFO Initial active configuration set is default.
+2024-02-15 17:21:07,721 file.manager INFO Component instance conf file: conf/choice0.conf loaded.
+2024-02-15 17:21:07,722 file.ec_base INFO setRate(1000000.000000) done
+2024-02-15 17:21:07,722 file.ec_base INFO setRate(1000.000000) done
+2024-02-15 17:21:07,722 file.rtobject INFO 1 execution context was created.
+2024-02-15 17:21:07,723 file.rtobject INFO Initial active configuration set is default.
+2024-02-15 17:21:12,957 file.ec_base WARNING The component is not responding.
+2024-02-15 17:21:12,958 file.ec_base ERROR Unknown error: Invalid state transition.
+2024-02-15 17:21:22,202 file.ModuleManager ERROR popen faild
+2024-02-15 17:21:22,205 file.ModuleManager ERROR popen faild
+2024-02-15 17:21:22,209 file.ModuleManager ERROR popen faild
+2024-02-15 17:21:22,213 file.ModuleManager ERROR popen faild
